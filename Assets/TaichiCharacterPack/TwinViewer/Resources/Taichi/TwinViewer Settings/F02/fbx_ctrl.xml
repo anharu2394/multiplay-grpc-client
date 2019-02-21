@@ -1,0 +1,220 @@
+<?xml version="1.0" standalone="yes"?>
+<Root>Aoi/Textures/
+<!-- Shame -->
+	<!--Shame M-->
+	<Texture Lod="1" Material="f02_face_00_m (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_030_m" >
+		<Info Model="" Ani="f02_embar_00" />
+		<Info Model="" Ani="f02_embar_01" />
+	</Texture>
+
+
+	<!--Shame L-->
+	<Texture Lod="2" Material="f02_face_00_l (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_030_l" >
+		<Info Model="" Ani="f02_embar_00" />
+		<Info Model="" Ani="f02_embar_01" />
+	</Texture>
+<!-- Shame -->
+
+
+<!-- Close -->
+	<!--Close M-->
+	<Texture Lod="1" Material="f02_face_00_m (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_060_m" >
+		<Info Model="" Ani="f02_liedown_01" />
+		<Info Model="" Ani="f02_liedown_03" />
+		<Info Model="" Ani="f02_liedown_05" />
+		<Info Model="" Ani="f02_liedown_05_a" />
+		<Info Model="" Ani="f02_refuse_00" />
+		<Info Model="" Ani="f02_refuse_01" />
+	</Texture>
+
+	<!--Close L-->
+	<Texture Lod="2" Material="f02_face_00_l (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_060_l" >
+		<Info Model="" Ani="f02_liedown_01" />
+		<Info Model="" Ani="f02_liedown_03" />
+		<Info Model="" Ani="f02_liedown_05" />
+		<Info Model="" Ani="f02_liedown_05_a" />
+		<Info Model="" Ani="f02_refuse_00" />
+		<Info Model="" Ani="f02_refuse_01" />
+	</Texture>
+<!-- Close -->
+
+	
+<!-- Wink -->
+	<!--Wink M-->
+	<Texture Lod="1" Material="f02_face_00_m (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_040_m" >
+		<Info Model="" Ani="f02_wink_00" />
+	</Texture>
+
+	<!--Wink L-->
+	<Texture Lod="2" Material="f02_face_00_l (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_040_l" >
+		<Info Model="" Ani="f02_wink_00" />
+	</Texture>
+<!-- Wink -->
+
+	
+<!--Kiss-->
+	<!--Kiss M-->
+	<Texture Lod="1" Material="f02_face_00_m (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_050_m" >
+		<Info Model="" Ani="f02_kiss_00" />
+	</Texture>
+
+	<!--Kiss L-->
+	<Texture Lod="2" Material="f02_face_00_l (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_050_l" >
+		<Info Model="" Ani="f02_kiss_00" />
+	</Texture>
+<!--Kiss-->
+	
+<!--Angry-->
+	<!--Angry M-->
+	<Texture Lod="1" Material="f02_face_00_m (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_010_m" >
+		<Info Model="" Ani="f02_idle_20" />
+		<Info Model="" Ani="f02_forward_20" />
+		<Info Model="" Ani="f02_back_20" />
+		<Info Model="" Ani="f02_punch_20" />
+		<Info Model="" Ani="f02_punch_21" />
+		<Info Model="" Ani="f02_kick_20" />
+		<Info Model="" Ani="f02_punch_22" />
+		<Info Model="" Ani="f02_kick_21" />
+		<Info Model="" Ani="f02_kick_22" />
+		<Info Model="" Ani="f02_kick_23" />
+		<Info Model="" Ani="f02_kick_24" />
+		<Info Model="" Ani="f02_punch_23" />
+		<Info Model="" Ani="f02_punch_23_p" />
+		<Info Model="" Ani="f02_special_20" />
+		<Info Model="" Ani="f02_special_21" />
+		<Info Model="" Ani="f02_throw_20" />
+		<Info Model="" Ani="f02_guard_20" />
+		<Info Model="" Ani="f02_guard_20_a" />
+		<Info Model="" Ani="f02_crouch_20" />
+		<Info Model="" Ani="f02_crouch_20_p" />
+		<Info Model="" Ani="f02_guard_21" />
+		<Info Model="" Ani="f02_guard_21_p" />
+		<Info Model="" Ani="f02_getup_20" />
+		<Info Model="" Ani="f02_jump_20" />
+		<Info Model="" Ani="f02_kick_25" />
+		<Info Model="" Ani="f02_kick_26" />
+		<Info Model="" Ani="f02_kick_27" />
+	</Texture>
+
+	<!--Angry L-->
+	<Texture Lod="2" Material="f02_face_00_l (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_010_l" >
+		<Info Model="" Ani="f02_idle_20" />
+		<Info Model="" Ani="f02_forward_20" />
+		<Info Model="" Ani="f02_back_20" />
+		<Info Model="" Ani="f02_punch_20" />
+		<Info Model="" Ani="f02_punch_21" />
+		<Info Model="" Ani="f02_kick_20" />
+		<Info Model="" Ani="f02_punch_22" />
+		<Info Model="" Ani="f02_kick_21" />
+		<Info Model="" Ani="f02_kick_22" />
+		<Info Model="" Ani="f02_kick_23" />
+		<Info Model="" Ani="f02_kick_24" />
+		<Info Model="" Ani="f02_punch_23" />
+		<Info Model="" Ani="f02_punch_23_p" />
+		<Info Model="" Ani="f02_special_20" />
+		<Info Model="" Ani="f02_special_21" />
+		<Info Model="" Ani="f02_throw_20" />
+		<Info Model="" Ani="f02_guard_20" />
+		<Info Model="" Ani="f02_guard_20_a" />
+		<Info Model="" Ani="f02_crouch_20" />
+		<Info Model="" Ani="f02_crouch_20_p" />
+		<Info Model="" Ani="f02_guard_21" />
+		<Info Model="" Ani="f02_guard_21_p" />
+		<Info Model="" Ani="f02_getup_20" />
+		<Info Model="" Ani="f02_jump_20" />
+		<Info Model="" Ani="f02_kick_25" />
+		<Info Model="" Ani="f02_kick_26" />
+		<Info Model="" Ani="f02_kick_27" />
+	</Texture>
+	
+	
+<!--Damage-->
+	<!--Damage M-->
+	<Texture Lod="1" Material="f02_face_00_m (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_070_m" >
+		<Info Model="" Ani="f02_thrown_20" />
+		<Info Model="" Ani="f02_down_20" />
+		<Info Model="" Ani="f02_down_21" />
+		<Info Model="" Ani="f02_down_22" />
+		<Info Model="" Ani="f02_down_23" />
+		<Info Model="" Ani="f02_damage_20" />
+		<Info Model="" Ani="f02_damage_21" />
+		<Info Model="" Ani="f02_damage_22" />
+		<Info Model="" Ani="f02_damage_23" />
+		<Info Model="" Ani="f02_damage_24" />
+		<Info Model="" Ani="f02_damage_25" />
+		<Info Model="" Ani="f02_down_23_a" />
+	</Texture>
+
+	<!--Damage L-->
+	<Texture Lod="2" Material="f02_face_00_l (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_070_l" >
+		<Info Model="" Ani="f02_thrown_20" />
+		<Info Model="" Ani="f02_down_20" />
+		<Info Model="" Ani="f02_down_21" />
+		<Info Model="" Ani="f02_down_22" />
+		<Info Model="" Ani="f02_down_23" />
+		<Info Model="" Ani="f02_damage_20" />
+		<Info Model="" Ani="f02_damage_21" />
+		<Info Model="" Ani="f02_damage_22" />
+		<Info Model="" Ani="f02_damage_23" />
+		<Info Model="" Ani="f02_damage_24" />
+		<Info Model="" Ani="f02_damage_25" />
+		<Info Model="" Ani="f02_down_23_a" />
+	</Texture>
+<!--Damage-->
+
+<!--Default-->
+	<!--M-->
+	<Texture Lod="1" Material="f02_face_00_m (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_00_m">
+		<Info Model="" Ani="" />
+	</Texture>
+	
+	<!--L-->
+	<Texture Lod="2" Material="f02_face_00_l (Instance)" Property="_MainTex" File="Aoi/Textures/f02_face_00_l">
+		<Info Model="" Ani="" />
+	</Texture>
+<!--Default-->
+
+<!--Animation-->
+	<Animation Lod="" File="f02_liedown_04_a">
+		<Info Model="f02_apron_00_h" Ani="f02_liedown_04" />
+		<Info Model="f02_apron_00_m" Ani="f02_liedown_04" />
+		<Info Model="f02_apron_00_l" Ani="f02_liedown_04" />
+	</Animation>
+	<Animation Lod="" File="f02_liedown_05_a">
+		<Info Model="f02_apron_00_h" Ani="f02_liedown_05" />
+		<Info Model="f02_apron_00_m" Ani="f02_liedown_05" />
+		<Info Model="f02_apron_00_l" Ani="f02_liedown_05" />
+	</Animation>
+	<Animation Lod="" File="f02_punch_23_a">
+		<Info Model="f02_apron_00_h" Ani="f02_punch_23" />
+		<Info Model="f02_apron_00_m" Ani="f02_punch_23" />
+		<Info Model="f02_apron_00_l" Ani="f02_punch_23" />
+	</Animation>
+	<Animation Lod="" File="f02_guard_20_a">
+		<Info Model="f02_apron_00_h" Ani="f02_guard_20" />
+		<Info Model="f02_apron_00_m" Ani="f02_guard_20" />
+		<Info Model="f02_apron_00_l" Ani="f02_guard_20" />
+	</Animation>
+	<Animation Lod="" File="f02_crouch_20_a">
+		<Info Model="f02_apron_00_h" Ani="f02_crouch_20" />
+		<Info Model="f02_apron_00_m" Ani="f02_crouch_20" />
+		<Info Model="f02_apron_00_l" Ani="f02_crouch_20" />
+	</Animation>
+	<Animation Lod="" File="f02_guard_21_a">
+		<Info Model="f02_apron_00_h" Ani="f02_guard_21" />
+		<Info Model="f02_apron_00_m" Ani="f02_guard_21" />
+		<Info Model="f02_apron_00_l" Ani="f02_guard_21" />
+	</Animation>
+	<Animation Lod="" File="f02_down_23_a">
+		<Info Model="f02_apron_00_h" Ani="f02_down_23" />
+		<Info Model="f02_apron_00_m" Ani="f02_down_23" />
+		<Info Model="f02_apron_00_l" Ani="f02_down_23" />
+	</Animation>
+	
+	<Animation Lod="" File="f02_sit_04_u">
+		<Info Model="f02_uniform_00_h" Ani="f02_sit_04" />
+		<Info Model="f02_uniform_00_m" Ani="f02_sit_04" />
+		<Info Model="f02_uniform_00_l" Ani="f02_sit_04" />
+	</Animation>
+<!--Animation-->
+</Root>

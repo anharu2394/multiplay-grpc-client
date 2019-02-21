@@ -1,0 +1,90 @@
+<?xml version="1.0" standalone="yes"?>
+<Root>
+<!--Position-->
+	<Position Ani="succubus_a_idle_01"       PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_walk"          PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_run"           PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_n_jump"        PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_move"      PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_idle"      PosX="0" PosY="1.5" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_move_r"    PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_move_l"    PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_sit_idle"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_charm_02"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_charm_03"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_greeting_01"   PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_idle_02"       PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_idle_04"       PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_sleep_01"      PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_appear"        PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_idle_03"       PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_chop_01"       PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_magic_01"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_charm_01"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_kick_01"       PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_damage_s"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_damage_m"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_damage_l"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_death"         PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_death_lp"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_talk_01"       PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_idle_twins_01" PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_start_00"       PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_end_00"         PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_start_00_float" PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_end_00_float"   PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_idle_flot"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_move_float"     PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_move_r_float"   PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_fly_move_l_float"   PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_idle_02_float"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_idle_03_float"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_idle_04_float"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_appear_float"       PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_a_sleep_01_float"     PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+
+
+	<Position Ani="succubus_b_idle_01"       PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_walk"          PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_run"           PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_n_jump"        PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_move"      PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_idle"      PosX="0" PosY="1.5" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_move_r"    PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_move_l"    PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_sit_idle"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_charm_02"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_charm_03"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_greeting_01"   PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_idle_02"       PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_idle_04"       PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_sleep_01"      PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_appear"        PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_idle_03"       PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_chop_01"       PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_magic_01"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_charm_01"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_kick_01"       PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_damage_s"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_damage_m"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_damage_l"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_death"         PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_death_lp"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_talk_01"       PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_idle_twins_01" PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_start_00"       PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_end_00"         PosX="0" PosY="1" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_start_00_float" PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_end_00_float"   PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_idle_flot"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_move_float"     PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_move_r_float"   PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_fly_move_l_float"   PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_idle_02_float"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_idle_03_float"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_idle_04_float"      PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_appear_float"       PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+	<Position Ani="succubus_b_sleep_01_float"     PosX="0" PosY="0" PosZ="0" RotX="0" RotY="0" RotZ="0" />
+
+<!--Position-->
+</Root>

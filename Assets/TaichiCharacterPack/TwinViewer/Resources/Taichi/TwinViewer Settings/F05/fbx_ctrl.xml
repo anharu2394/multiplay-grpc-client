@@ -1,0 +1,233 @@
+<?xml version="1.0" standalone="yes"?>
+<Root>
+
+<!--Shame-->
+	<!--M-->
+	<Texture Lod="1" Material="f05_face_00_m (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_030_m" >
+		<Info Model="" Ani="embar_00" />
+		<Info Model="" Ani="embar_01" />
+		<Info Model="" Ani="hughip_00" />
+		<Info Model="" Ani="hugshouldersit_00" />
+	</Texture>
+
+	<!--L-->
+	<Texture Lod="2" Material="f05_face_00_l (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_030_l">
+		<Info Model="" Ani="embar_00" />
+		<Info Model="" Ani="embar_01" />
+		<Info Model="" Ani="hughip_00" />
+		<Info Model="" Ani="hugshouldersit_00" />
+	</Texture>
+
+<!--Close EYE-->
+	<!--M-->
+	<Texture Lod="1" Material="f05_face_00_m (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_060_m" >
+		<Info Model="" Ani="liedown_01" />
+		<Info Model="" Ani="liedown_03" />
+		<Info Model="" Ani="liedown_05" />
+		<Info Model="" Ani="liedown_05_a" />
+		<Info Model="" Ani="refuse_00" />
+		<Info Model="" Ani="refuse_01" />
+	</Texture>
+
+	<!--L-->
+	<Texture Lod="2" Material="f05_face_00_l (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_060_l">
+		<Info Model="" Ani="liedown_01" />
+		<Info Model="" Ani="liedown_03" />
+		<Info Model="" Ani="liedown_05" />
+		<Info Model="" Ani="liedown_05_a" />
+		<Info Model="" Ani="refuse_00" />
+		<Info Model="" Ani="refuse_01" />
+	</Texture>
+
+
+<!--Wink-->
+	<!--M-->
+	<Texture Lod="1" Material="f05_face_00_m (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_040_m" >
+		<Info Model="" Ani="wink_00" />
+	
+	</Texture>
+	
+	<!--L-->
+	<Texture Lod="2" Material="f05_face_00_l (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_040_l">
+		<Info Model="" Ani="wink_00" />
+	</Texture>
+
+<!--Kiss-->
+	<!--M-->
+	<Texture Lod="1" Material="f05_face_00_m (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_050_m" >
+		<Info Model="" Ani="kiss_00" />
+	</Texture>
+	<!--L-->
+	<Texture Lod="2" Material="f05_face_00_l (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_050_l">
+		<Info Model="" Ani="kiss_00" />
+	</Texture>
+
+<!--Angry-->
+	<!--M-->
+	<Texture Lod="1" Material="f05_face_00_m (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_010_m" >
+		<Info Model="" Ani="forwardroll_10" />
+		<Info Model="" Ani="sidestep_10" />
+		<Info Model="" Ani="sidestep_11" />
+		<Info Model="" Ani="backstep_10" />
+		<Info Model="" Ani="idle_20" />
+		<Info Model="" Ani="forward_20" />
+		<Info Model="" Ani="forward_20_p" />
+		<Info Model="" Ani="back_20" />
+		<Info Model="" Ani="back_20_p" />
+		<Info Model="" Ani="punch_20" />
+		<Info Model="" Ani="punch_21" />
+		<Info Model="" Ani="kick_20" />
+		<Info Model="" Ani="punch_22" />
+		<Info Model="" Ani="kick_21" />
+		<Info Model="" Ani="kick_22" />
+		<Info Model="" Ani="kick_23" />
+		<Info Model="" Ani="kick_24" />
+		<Info Model="" Ani="kick_25" />
+		<Info Model="" Ani="punch_23" />
+		<Info Model="" Ani="punch_23_a" />
+		<Info Model="" Ani="special_20" />
+		<Info Model="" Ani="special_21" />
+		<Info Model="" Ani="throw_20" />
+		<Info Model="" Ani="guard_20" />
+		<Info Model="" Ani="guard_20_a" />
+		<Info Model="" Ani="crouch_20" />
+		<Info Model="" Ani="crouch_20_a" />
+		<Info Model="" Ani="guard_21" />
+		<Info Model="" Ani="guard_21_a" />
+		<Info Model="" Ani="getup_20" />
+		<Info Model="" Ani="jump_20" />
+	</Texture>
+	
+	<!--L-->
+	<Texture Lod="2" Material="f05_face_00_l (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_010_l">
+		<Info Model="" Ani="forwardroll_10" />
+		<Info Model="" Ani="sidestep_10" />
+		<Info Model="" Ani="sidestep_11" />
+		<Info Model="" Ani="backstep_10" />
+		<Info Model="" Ani="idle_20" />
+		<Info Model="" Ani="forward_20" />
+		<Info Model="" Ani="forward_20_p" />
+		<Info Model="" Ani="back_20" />
+		<Info Model="" Ani="back_20_p" />
+		<Info Model="" Ani="punch_20" />
+		<Info Model="" Ani="punch_21" />
+		<Info Model="" Ani="kick_20" />
+		<Info Model="" Ani="punch_22" />
+		<Info Model="" Ani="kick_21" />
+		<Info Model="" Ani="kick_22" />
+		<Info Model="" Ani="kick_23" />
+		<Info Model="" Ani="kick_24" />
+		<Info Model="" Ani="kick_25" />
+		<Info Model="" Ani="punch_23" />
+		<Info Model="" Ani="punch_23_a" />
+		<Info Model="" Ani="special_20" />
+		<Info Model="" Ani="special_21" />
+		<Info Model="" Ani="throw_20" />
+		<Info Model="" Ani="guard_20" />
+		<Info Model="" Ani="guard_20_a" />
+		<Info Model="" Ani="crouch_20" />
+		<Info Model="" Ani="crouch_20_a" />
+		<Info Model="" Ani="guard_21" />
+		<Info Model="" Ani="guard_21_a" />
+		<Info Model="" Ani="getup_20" />
+		<Info Model="" Ani="jump_20" />
+	</Texture>
+
+
+
+<!--Damage-->
+	<!--M-->
+	<Texture Lod="1" Material="f05_face_00_m (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_070_m" >
+		<Info Model="" Ani="thrown_20" />
+		<Info Model="" Ani="down_20" />
+		<Info Model="" Ani="down_21" />
+		<Info Model="" Ani="down_22" />
+		<Info Model="" Ani="down_23" />
+		<Info Model="" Ani="down_23_a" />
+		<Info Model="" Ani="damage_20" />
+		<Info Model="" Ani="damage_21" />
+		<Info Model="" Ani="damage_22" />
+		<Info Model="" Ani="damage_23" />
+		<Info Model="" Ani="damage_24" />
+		<Info Model="" Ani="damage_25" />
+	</Texture>
+	
+	<!--L-->
+	<Texture Lod="2" Material="f05_face_00_l (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_070_l">
+		<Info Model="" Ani="thrown_20" />
+		<Info Model="" Ani="down_20" />
+		<Info Model="" Ani="down_21" />
+		<Info Model="" Ani="down_22" />
+		<Info Model="" Ani="down_23" />
+		<Info Model="" Ani="down_23_a" />
+		<Info Model="" Ani="damage_20" />
+		<Info Model="" Ani="damage_21" />
+		<Info Model="" Ani="damage_22" />
+		<Info Model="" Ani="damage_23" />
+		<Info Model="" Ani="damage_24" />
+		<Info Model="" Ani="damage_25" />
+	</Texture>
+
+<!--Default-->
+	<!--M-->
+	<Texture Lod="1" Material="f05_face_00_m (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_00_m">
+		<Info Model="" Ani="" />
+	</Texture>
+
+	<!--L-->
+	<Texture Lod="2" Material="f05_face_00_l (Instance)" Property="_MainTex" File="Satomi/Textures/f05_face_00_l">
+		<Info Model="" Ani="" />
+	</Texture>
+
+
+<!--Animation Change-->
+	<Animation Lod="" File="liedown_04_a">
+		<Info Model="f05_apron_00_h" Ani="liedown_04" />
+		<Info Model="f05_apron_00_m" Ani="liedown_04" />
+		<Info Model="f05_apron_00_l" Ani="liedown_04" />
+	</Animation>
+	<Animation Lod="" File="liedown_05_a">
+		<Info Model="f05_apron_00_h" Ani="liedown_05" />
+		<Info Model="f05_apron_00_m" Ani="liedown_05" />
+		<Info Model="f05_apron_00_l" Ani="liedown_05" />
+	</Animation>
+	<Animation Lod="" File="punch_23_a">
+		<Info Model="f05_apron_00_h" Ani="punch_23" />
+		<Info Model="f05_apron_00_m" Ani="punch_23" />
+		<Info Model="f05_apron_00_l" Ani="punch_23" />
+	</Animation>
+	<Animation Lod="" File="guard_20_a">
+		<Info Model="f05_apron_00_h" Ani="guard_20" />
+		<Info Model="f05_apron_00_m" Ani="guard_20" />
+		<Info Model="f05_apron_00_l" Ani="guard_20" />
+	</Animation>
+	<Animation Lod="" File="crouch_20_a">
+		<Info Model="f05_apron_00_h" Ani="crouch_20" />
+		<Info Model="f05_apron_00_m" Ani="crouch_20" />
+		<Info Model="f05_apron_00_l" Ani="crouch_20" />
+	</Animation>
+	<Animation Lod="" File="guard_21_a">
+		<Info Model="f05_apron_00_h" Ani="guard_21" />
+		<Info Model="f05_apron_00_m" Ani="guard_21" />
+		<Info Model="f05_apron_00_l" Ani="guard_21" />
+	</Animation>
+	<Animation Lod="" File="down_23_a">
+		<Info Model="f05_apron_00_h" Ani="down_23" />
+		<Info Model="f05_apron_00_m" Ani="down_23" />
+		<Info Model="f05_apron_00_l" Ani="down_23" />
+	</Animation>
+	
+
+<!--Animation Change-->
+</Root>
+
+
+
+
+
+
+
+
+
+
+

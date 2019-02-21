@@ -1,0 +1,93 @@
+-------------------------------------------
+
+GameAssetStudio
+http://gameassetstudio.com/
+
+-------------------------------------------
+
+===========================================
+ Ver 1.16 Update Information
+===========================================
+1. The viewer script has been changed from javascript to C#.
+
+
+===========================================
+ Ver 1.15 Update Information
+===========================================
+[Unity5]
+1. We have adjusted the Shader default value according to DirectionalLight intensity 1.0.
+
+
+ ===========================================
+ Ver 1.14 Update Information
+===========================================
+
+1. In Unity 4.6.2 and higher versions the Cutoff in the toon_cutoff shader wasn't working properly. This has been fixed.
+2. Adjusted the light in viewer.
+3. Adjusted the light in Twin viewer.
+4. Updated the settings file for the Twin Viewer.
+5. You can now set the Alpha cutoff of the toon_cutoff shader. 0.9 is the recommended setting.
+
+
+===========================================
+ Ver 1.13 Update Information
+===========================================
+1.Adjusted the Shadow Color settings of the shader
+
+- m01_schoolwear_000_h
+- m01_schoolwear_000_m
+- m01_schoolwear_000_l
+- m01_schoolwear_100_h
+- m01_schoolwear_100_m
+- m01_schoolwear_100_l
+- m01_schoolwear_200_h
+- m01_schoolwear_200_m
+- m01_schoolwear_200_l
+- m01_schoolwear_300_h
+- m01_schoolwear_300_m
+- m01_schoolwear_300_l
+- m01_schoolwear_400_h
+- m01_schoolwear_400_m
+- m01_schoolwear_400_l
+- m01_schoolwear_410_h
+- m01_schoolwear_410_m
+- m01_schoolwear_410_l
+- m01_schoolwear_420_h
+- m01_schoolwear_420_m
+- m01_schoolwear_420_l
+- m01_casualwear_00_h
+- m01_casualwear_00_m
+- m01_casualwear_00_l
+- m01_casualwear_01_h
+- m01_casualwear_01_m
+- m01_casualwear_01_l
+- m01_bathtowel_00_h
+- m01_bathtowel_00_m
+- m01_bathtowel_00_l
+- m01_apron_00_h
+- m01_apron_00_m
+- m01_apron_00_l
+- m01_jersey_00_h
+- m01_jersey_00_m
+- m01_jersey_00_l
+
+===========================================
+ Ver 1.12 Update Information
+===========================================
+1.Added 3 new models.
+
+- m01_schoolwear_400
+- m01_schoolwear_410
+- m01_schoolwear_420
+
+===========================================
+ Ver 1.02 Update Information
+===========================================
+1.The following simplified versions of the idle animations have been added.
+
+- m01@f01_idle_01
+- m01@f01_idle_11
+
+2.Some directory names have been changed.
+3.Some file names have been changed.
+4.Fixed ImportFBX Errors that had been occurring with puppet_00_h.

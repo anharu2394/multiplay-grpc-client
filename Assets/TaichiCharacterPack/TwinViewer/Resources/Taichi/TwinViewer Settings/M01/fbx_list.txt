@@ -1,0 +1,16 @@
+Taichi/Models Legacy/m01_blazer_000
+Taichi/Models Legacy/m01_schoolwear_000
+Taichi/Models Legacy/m01_schoolwear_200
+Taichi/Models Legacy/m01_blazer_100
+Taichi/Models Legacy/m01_schoolwear_100
+Taichi/Models Legacy/m01_schoolwear_300
+Taichi/Models Legacy/m01_schoolwear_400
+Taichi/Models Legacy/m01_schoolwear_410
+Taichi/Models Legacy/m01_schoolwear_420
+Taichi/Models Legacy/m01_jersey_00
+Taichi/Models Legacy/m01_casualwear_00
+Taichi/Models Legacy/m01_casualwear_01
+Taichi/Models Legacy/m01_apron_00
+Taichi/Models Legacy/m01_bathtowel_00
+Taichi/Models Legacy/m01_swimwear_00
+Taichi/Models Legacy/m01_naked_00

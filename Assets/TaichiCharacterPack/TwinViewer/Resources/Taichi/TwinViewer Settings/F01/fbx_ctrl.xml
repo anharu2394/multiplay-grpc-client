@@ -1,0 +1,282 @@
+<?xml version="1.0" standalone="yes"?>
+<Root>
+
+<!--Shame-->
+	<!--M-->
+	<Texture Lod="1" Material="f01_face_00_m (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_030_m" >
+		<Info Model="" Ani="f01_ember_00" />
+		<Info Model="" Ani="f01_ember_01" />
+		<Info Model="" Ani="f01_skirtblow_10" />
+	</Texture>
+	
+	
+	<!--L-->
+	<Texture Lod="2" Material="f01_face_00_l (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_030_l">
+		<Info Model="" Ani="f01_ember_00" />
+		<Info Model="" Ani="f01_ember_01" />
+		<Info Model="" Ani="f01_skirtblow_10" />
+	</Texture>
+
+
+<!--Close EYE-->
+	<!--M-->
+	<Texture Lod="1" Material="f01_face_00_m (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_060_m" >
+		<Info Model="" Ani="f01_liedown_01" />
+		<Info Model="" Ani="f01_liedown_03" />
+		<Info Model="" Ani="f01_liedown_05" />
+		<Info Model="" Ani="f01_liedown_05_a" />
+		<Info Model="" Ani="f01_refuse_00" />
+		<Info Model="" Ani="f01_refuse_01" />
+	</Texture>
+	
+	<!--L-->
+	<Texture Lod="2" Material="f01_face_00_l (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_060_l">
+		<Info Model="" Ani="f01_liedown_01" />
+		<Info Model="" Ani="f01_liedown_03" />
+		<Info Model="" Ani="f01_liedown_05" />
+		<Info Model="" Ani="f01_liedown_05_a" />
+		<Info Model="" Ani="f01_refuse_00" />
+		<Info Model="" Ani="f01_refuse_01" />
+	</Texture>
+
+<!--Wink-->
+	<!--M-->
+	<Texture Lod="1" Material="f01_face_00_m (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_040_m" >
+		<Info Model="" Ani="f01_wink_00" />
+	
+	</Texture>
+	
+	<!--L-->
+	<Texture Lod="2" Material="f01_face_00_l (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_040_l">
+		<Info Model="" Ani="f01_wink_00" />
+	</Texture>
+
+
+
+<!--Angry-->
+	<!--M-->
+	<Texture Lod="1" Material="f01_face_00_m (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_010_m" >
+		<Info Model="" Ani="f01_idle_20" />
+		<Info Model="" Ani="f01_forward_20" />
+		<Info Model="" Ani="f01_back_20" />
+		<Info Model="" Ani="f01_punch_20" />
+		<Info Model="" Ani="f01_punch_21" />
+		<Info Model="" Ani="f01_kick_20" />
+		<Info Model="" Ani="f01_punch_22" />
+		<Info Model="" Ani="f01_kick_21" />
+		<Info Model="" Ani="f01_kick_22" />
+		<Info Model="" Ani="f01_kick_23" />
+		<Info Model="" Ani="f01_kick_24" />
+		<Info Model="" Ani="f01_kick_25" />
+		<Info Model="" Ani="f01_punch_23" />
+		<Info Model="" Ani="f01_punch_23_a" />
+		<Info Model="" Ani="f01_special_20" />
+		<Info Model="" Ani="f01_special_21" />
+		<Info Model="" Ani="f01_throw_20" />
+		<Info Model="" Ani="f01_guard_20" />
+		<Info Model="" Ani="f01_guard_20_a" />
+		<Info Model="" Ani="f01_crouch_20" />
+		<Info Model="" Ani="f01_crouch_20_a" />
+		<Info Model="" Ani="f01_guard_21" />
+		<Info Model="" Ani="f01_guard_21_a" />
+		<Info Model="" Ani="f01_getup_20" />
+		<Info Model="" Ani="f01_jump_20" />
+	</Texture>
+	
+	<!--L-->
+	<Texture Lod="2" Material="f01_face_00_l (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_010_l">
+		<Info Model="" Ani="f01_idle_20" />
+		<Info Model="" Ani="f01_forward_20" />
+		<Info Model="" Ani="f01_back_20" />
+		<Info Model="" Ani="f01_punch_20" />
+		<Info Model="" Ani="f01_punch_21" />
+		<Info Model="" Ani="f01_kick_20" />
+		<Info Model="" Ani="f01_punch_22" />
+		<Info Model="" Ani="f01_kick_21" />
+		<Info Model="" Ani="f01_kick_22" />
+		<Info Model="" Ani="f01_kick_23" />
+		<Info Model="" Ani="f01_kick_24" />
+		<Info Model="" Ani="f01_kick_25" />
+		<Info Model="" Ani="f01_punch_23" />
+		<Info Model="" Ani="f01_punch_23_a" />
+		<Info Model="" Ani="f01_special_20" />
+		<Info Model="" Ani="f01_special_21" />
+		<Info Model="" Ani="f01_throw_20" />
+		<Info Model="" Ani="f01_guard_20" />
+		<Info Model="" Ani="f01_guard_20_a" />
+		<Info Model="" Ani="f01_crouch_20" />
+		<Info Model="" Ani="f01_crouch_20_a" />
+		<Info Model="" Ani="f01_guard_21" />
+		<Info Model="" Ani="f01_guard_21_a" />
+		<Info Model="" Ani="f01_getup_20" />
+		<Info Model="" Ani="f01_jump_20" />
+	</Texture>
+
+
+
+<!--Damage-->
+	<!--M-->
+	<Texture Lod="1" Material="f01_face_00_m (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_070_m" >
+		<Info Model="" Ani="f01_thrown_20" />
+		<Info Model="" Ani="f01_down_20" />
+		<Info Model="" Ani="f01_down_21" />
+		<Info Model="" Ani="f01_down_22" />
+		<Info Model="" Ani="f01_down_23" />
+		<Info Model="" Ani="f01_down_23_a" />
+		<Info Model="" Ani="f01_damage_20" />
+		<Info Model="" Ani="f01_damage_21" />
+		<Info Model="" Ani="f01_damage_22" />
+		<Info Model="" Ani="f01_damage_23" />
+		<Info Model="" Ani="f01_damage_24" />
+		<Info Model="" Ani="f01_damage_25" />
+
+	</Texture>
+	
+
+	
+	
+	<!--L-->
+	<Texture Lod="2" Material="f01_face_00_l (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_070_l">
+		<Info Model="" Ani="f01_thrown_20" />
+		<Info Model="" Ani="f01_down_20" />
+		<Info Model="" Ani="f01_down_21" />
+		<Info Model="" Ani="f01_down_22" />
+		<Info Model="" Ani="f01_down_23" />
+		<Info Model="" Ani="f01_down_23_a" />
+		<Info Model="" Ani="f01_damage_20" />
+		<Info Model="" Ani="f01_damage_21" />
+		<Info Model="" Ani="f01_damage_22" />
+		<Info Model="" Ani="f01_damage_23" />
+		<Info Model="" Ani="f01_damage_24" />
+		<Info Model="" Ani="f01_damage_25" />
+	</Texture>
+
+<!--Kiss-->
+	<!--M-->
+	<Texture Lod="1" Material="f01_face_00_m (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_050_m" >
+		<Info Model="" Ani="f01_kiss_00" />
+	</Texture>
+
+	<!--L-->
+	<Texture Lod="2" Material="f01_face_00_l (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_050_l">
+		<Info Model="" Ani="f01_kiss_00" />
+	</Texture>
+
+<!--Damage-->
+	<!--M-->
+	<Texture Lod="1" Material="f01_face_00_m (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_070_m">
+		<Info Model="" Ani="act227_F01_Damage_face_R" />
+		<Info Model="" Ani="act228_F01_Damage_face_L" />
+		<Info Model="" Ani="act229_F01_Damage_stomach" />
+		<Info Model="" Ani="act230_F01_Damage_reg_R" />
+		<Info Model="" Ani="act231_F01_Damage_reg_L" />
+	</Texture>
+
+	<!--L-->
+	<Texture Lod="2" Material="f01_face_00_l (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_070_l">
+		<Info Model="" Ani="act227_F01_Damage_face_R" />
+		<Info Model="" Ani="act228_F01_Damage_face_L" />
+		<Info Model="" Ani="act229_F01_Damage_stomach" />
+		<Info Model="" Ani="act230_F01_Damage_reg_R" />
+		<Info Model="" Ani="act231_F01_Damage_reg_L" />
+	</Texture>
+
+
+
+<!--Default-->
+	<!--M-->
+	<Texture Lod="1" Material="f01_face_00_m (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_00_m">
+		<Info Model="" Ani="" />
+	</Texture>
+	
+	<!--L-->
+	<Texture Lod="2" Material="f01_face_00_l (Instance)" Property="_MainTex" File="Honoka/Textures/f01_face_00_l">
+		<Info Model="" Ani="" />
+	</Texture>
+
+
+<!--Animation Change-->
+	<Animation Lod="" File="f01_liedown_04_a">
+		<Info Model="f01_apron_00_h" Ani="f01_liedown_04" />
+		<Info Model="f01_apron_00_m" Ani="f01_liedown_04" />
+		<Info Model="f01_apron_00_l" Ani="f01_liedown_04" />
+	</Animation>
+	
+	<Animation Lod="" File="f01_liedown_05_a">
+		<Info Model="f01_apron_00_h" Ani="f01_liedown_05" />
+		<Info Model="f01_apron_00_m" Ani="f01_liedown_05" />
+		<Info Model="f01_apron_00_l" Ani="f01_liedown_05" />
+	</Animation>
+	
+	<Animation Lod="" File="f01_down_23_a">
+		<Info Model="f01_apron_00_h" Ani="f01_down_23" />
+		<Info Model="f01_apron_00_m" Ani="f01_down_23" />
+		<Info Model="f01_apron_00_l" Ani="f01_down_23" />
+	</Animation>
+	
+	<Animation Lod="" File="f01_guard_20_a">
+		<Info Model="f01_apron_00_h" Ani="f01_guard_20" />
+		<Info Model="f01_apron_00_m" Ani="f01_guard_20" />
+		<Info Model="f01_apron_00_l" Ani="f01_guard_20" />
+	</Animation>
+
+	<Animation Lod="" File="f01_crouch_20_a">
+		<Info Model="f01_apron_00_h" Ani="f01_crouch_20" />
+		<Info Model="f01_apron_00_m" Ani="f01_crouch_20" />
+		<Info Model="f01_apron_00_l" Ani="f01_crouch_20" />
+	</Animation>
+
+	<Animation Lod="" File="f01_guard_21_a">
+		<Info Model="f01_apron_00_h" Ani="f01_guard_21" />
+		<Info Model="f01_apron_00_m" Ani="f01_guard_21" />
+		<Info Model="f01_apron_00_l" Ani="f01_guard_21" />
+	</Animation>
+
+	<Animation Lod="" File="f01_punch_23_a">
+		<Info Model="f01_apron_00_h" Ani="f01_punch_23" />
+		<Info Model="f01_apron_00_m" Ani="f01_punch_23" />
+		<Info Model="f01_apron_00_l" Ani="f01_punch_23" />
+	</Animation>
+
+	<Animation Lod="" File="f01_punch_23_a_p">
+		<Info Model="f01_apron_00_h" Ani="f01_punch_23_p" />
+		<Info Model="f01_apron_00_m" Ani="f01_punch_23_p" />
+		<Info Model="f01_apron_00_l" Ani="f01_punch_23_p" />
+	</Animation>
+
+	<Animation Lod="" File="f01_guard_20_a">
+		<Info Model="f01_apron_00_h" Ani="f01_guard_20" />
+		<Info Model="f01_apron_00_m" Ani="f01_guard_20" />
+		<Info Model="f01_apron_00_l" Ani="f01_guard_20" />
+	</Animation>
+
+	<Animation Lod="" File="f01_crouch_20_a_p">
+		<Info Model="f01_apron_00_h" Ani="f01_crouch_20_p" />
+		<Info Model="f01_apron_00_m" Ani="f01_crouch_20_p" />
+		<Info Model="f01_apron_00_l" Ani="f01_crouch_20_p" />
+	</Animation>
+
+	<Animation Lod="" File="f01_guard_21_a_p">
+		<Info Model="f01_apron_00_h" Ani="f01_guard_21_p" />
+		<Info Model="f01_apron_00_m" Ani="f01_guard_21_p" />
+		<Info Model="f01_apron_00_l" Ani="f01_guard_21_p" />
+	</Animation>
+
+	<Animation Lod="" File="f01_down_23_a_p">
+		<Info Model="f01_apron_00_h" Ani="f01_down_23_p" />
+		<Info Model="f01_apron_00_m" Ani="f01_down_23_p" />
+		<Info Model="f01_apron_00_l" Ani="f01_down_23_p" />
+	</Animation>
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+	
+
+</Root>
