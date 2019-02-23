@@ -19,6 +19,10 @@ public class CharacterControllerScript : MonoBehaviour
     private Hashtable userObjects;
 
 	private CharacterController controller;
+    private Animator animCon;
+	public float jumpSpeed = 8.0F;
+	public float gravity = 20.0F;
+	private Vector3 moveDirection = Vector3.zero;
 
 	void Start()
 	{
@@ -26,27 +30,30 @@ public class CharacterControllerScript : MonoBehaviour
 		// コンポーネントの取得
 		this.userObjects = new Hashtable();
 		controller = GetComponent<CharacterController>();
+        animCon = GetComponent<Animator>();
 		channel = new Channel("127.0.0.1:57601", ChannelCredentials.Insecure);
         sendPositon();
 	}
 
 	void Update()
 	{
-
-		// 回転
-		transform.Rotate(0, Input.GetAxis("Horizontal") * rotateSpeed, 0);
-
-		// キャラクターのローカル空間での方向
-		Vector3 forward = transform.transform.forward;
-
-		float curSpeed = speed * Input.GetAxis("Vertical");
-
-		// SimpleMove関数で移動させる
-		controller.SimpleMove(forward * curSpeed);
-        if (Input.GetKey("up"))
+		animCon.SetBool("Run", true);
+		if (controller.isGrounded)
 		{
-            controller.SimpleMove(forward * 1);
+			moveDirection = new Vector3(Input.GetAxis("Horizontal"), 0, Input.GetAxis("Vertical"));
+			moveDirection = transform.TransformDirection(moveDirection);
+			moveDirection *= speed;
+            if (moveDirection.x == 0.0f & moveDirection.y == 0.0f & moveDirection.z == 0.0f ) {
+                animCon.SetBool("Run", false);
+            }
+            if (Input.GetButton("Jump"))
+            {
+                moveDirection.y = jumpSpeed;
+            }
+
 		}
+		moveDirection.y -= gravity * Time.deltaTime;
+		controller.Move(moveDirection * Time.deltaTime);
         setUsers();
 	}
     private async Task sendPositon()
