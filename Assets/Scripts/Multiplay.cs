@@ -26,31 +26,32 @@ namespace Anharu {
           string.Concat(
             "Cg9tdWx0aXBsYXkucHJvdG8SBmFuaGFydSIiCg9HZXRVc2Vyc1JlcXVlc3QS",
             "DwoHcm9vbV9pZBgBIAEoCSI3ChBHZXRVc2Vyc1Jlc3BvbnNlEiMKBXVzZXJz",
-            "GAEgAygLMhQuYW5oYXJ1LlVzZXJQb3NpdGlvbiIwCgxVc2VyUG9zaXRpb24S",
-            "CgoCaWQYASABKAkSCQoBeBgCIAEoARIJCgF5GAMgASgBIjYKElNldFBvc2l0",
-            "aW9uUmVxdWVzdBIKCgJpZBgBIAEoCRIJCgF4GAIgASgBEgkKAXkYAyABKAEi",
-            "QAoTU2V0UG9zaXRpb25SZXNwb25zZRIOCgZzdGF0dXMYASABKAkSCgoCaWQY",
-            "AiABKAkSDQoFZXJyb3IYAyABKAkiOgoWQ29ubmVjdFBvc2l0aW9uUmVxdWVz",
-            "dBIKCgJpZBgBIAEoCRIJCgF4GAIgASgBEgkKAXkYAyABKAEiPgoXQ29ubmVj",
-            "dFBvc2l0aW9uUmVzcG9uc2USIwoFdXNlcnMYASADKAsyFC5hbmhhcnUuVXNl",
-            "clBvc2l0aW9uIiEKEUNyZWF0ZVVzZXJSZXF1ZXN0EgwKBG5hbWUYASABKAki",
-            "IAoSQ3JlYXRlVXNlclJlc3BvbnNlEgoKAmlkGAEgASgJMu4BCglNdWx0aXBs",
-            "YXkSPwoIR2V0VXNlcnMSFy5hbmhhcnUuR2V0VXNlcnNSZXF1ZXN0GhguYW5o",
-            "YXJ1LkdldFVzZXJzUmVzcG9uc2UwARJICgtTZXRQb3NpdGlvbhIaLmFuaGFy",
-            "dS5TZXRQb3NpdGlvblJlcXVlc3QaGy5hbmhhcnUuU2V0UG9zaXRpb25SZXNw",
-            "b25zZSgBElYKD0Nvbm5lY3RQb3NpdGlvbhIeLmFuaGFydS5Db25uZWN0UG9z",
-            "aXRpb25SZXF1ZXN0Gh8uYW5oYXJ1LkNvbm5lY3RQb3NpdGlvblJlc3BvbnNl",
-            "KAEwATJHCgRVc2VyEj8KBkNyZWF0ZRIZLmFuaGFydS5DcmVhdGVVc2VyUmVx",
-            "dWVzdBoaLmFuaGFydS5DcmVhdGVVc2VyUmVzcG9uc2ViBnByb3RvMw=="));
+            "GAEgAygLMhQuYW5oYXJ1LlVzZXJQb3NpdGlvbiI7CgxVc2VyUG9zaXRpb24S",
+            "CgoCaWQYASABKAkSCQoBeBgCIAEoARIJCgF5GAMgASgBEgkKAXoYBCABKAEi",
+            "QQoSU2V0UG9zaXRpb25SZXF1ZXN0EgoKAmlkGAEgASgJEgkKAXgYAiABKAES",
+            "CQoBeRgDIAEoARIJCgF6GAQgASgBIkAKE1NldFBvc2l0aW9uUmVzcG9uc2US",
+            "DgoGc3RhdHVzGAEgASgJEgoKAmlkGAIgASgJEg0KBWVycm9yGAMgASgJIkUK",
+            "FkNvbm5lY3RQb3NpdGlvblJlcXVlc3QSCgoCaWQYASABKAkSCQoBeBgCIAEo",
+            "ARIJCgF5GAMgASgBEgkKAXoYBCABKAEiPgoXQ29ubmVjdFBvc2l0aW9uUmVz",
+            "cG9uc2USIwoFdXNlcnMYASADKAsyFC5hbmhhcnUuVXNlclBvc2l0aW9uIiEK",
+            "EUNyZWF0ZVVzZXJSZXF1ZXN0EgwKBG5hbWUYASABKAkiIAoSQ3JlYXRlVXNl",
+            "clJlc3BvbnNlEgoKAmlkGAEgASgJMu4BCglNdWx0aXBsYXkSPwoIR2V0VXNl",
+            "cnMSFy5hbmhhcnUuR2V0VXNlcnNSZXF1ZXN0GhguYW5oYXJ1LkdldFVzZXJz",
+            "UmVzcG9uc2UwARJICgtTZXRQb3NpdGlvbhIaLmFuaGFydS5TZXRQb3NpdGlv",
+            "blJlcXVlc3QaGy5hbmhhcnUuU2V0UG9zaXRpb25SZXNwb25zZSgBElYKD0Nv",
+            "bm5lY3RQb3NpdGlvbhIeLmFuaGFydS5Db25uZWN0UG9zaXRpb25SZXF1ZXN0",
+            "Gh8uYW5oYXJ1LkNvbm5lY3RQb3NpdGlvblJlc3BvbnNlKAEwATJHCgRVc2Vy",
+            "Ej8KBkNyZWF0ZRIZLmFuaGFydS5DcmVhdGVVc2VyUmVxdWVzdBoaLmFuaGFy",
+            "dS5DcmVhdGVVc2VyUmVzcG9uc2ViBnByb3RvMw=="));
       descriptor = pbr::FileDescriptor.FromGeneratedCode(descriptorData,
           new pbr::FileDescriptor[] { },
           new pbr::GeneratedClrTypeInfo(null, new pbr::GeneratedClrTypeInfo[] {
             new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.GetUsersRequest), global::Anharu.GetUsersRequest.Parser, new[]{ "RoomId" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.GetUsersResponse), global::Anharu.GetUsersResponse.Parser, new[]{ "Users" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.UserPosition), global::Anharu.UserPosition.Parser, new[]{ "Id", "X", "Y" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.SetPositionRequest), global::Anharu.SetPositionRequest.Parser, new[]{ "Id", "X", "Y" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.UserPosition), global::Anharu.UserPosition.Parser, new[]{ "Id", "X", "Y", "Z" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.SetPositionRequest), global::Anharu.SetPositionRequest.Parser, new[]{ "Id", "X", "Y", "Z" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.SetPositionResponse), global::Anharu.SetPositionResponse.Parser, new[]{ "Status", "Id", "Error" }, null, null, null),
-            new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.ConnectPositionRequest), global::Anharu.ConnectPositionRequest.Parser, new[]{ "Id", "X", "Y" }, null, null, null),
+            new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.ConnectPositionRequest), global::Anharu.ConnectPositionRequest.Parser, new[]{ "Id", "X", "Y", "Z" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.ConnectPositionResponse), global::Anharu.ConnectPositionResponse.Parser, new[]{ "Users" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.CreateUserRequest), global::Anharu.CreateUserRequest.Parser, new[]{ "Name" }, null, null, null),
             new pbr::GeneratedClrTypeInfo(typeof(global::Anharu.CreateUserResponse), global::Anharu.CreateUserResponse.Parser, new[]{ "Id" }, null, null, null)
@@ -338,6 +339,7 @@ namespace Anharu {
       id_ = other.id_;
       x_ = other.x_;
       y_ = other.y_;
+      z_ = other.z_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -379,6 +381,17 @@ namespace Anharu {
       }
     }
 
+    /// <summary>Field number for the "z" field.</summary>
+    public const int ZFieldNumber = 4;
+    private double z_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public double Z {
+      get { return z_; }
+      set {
+        z_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as UserPosition);
@@ -395,6 +408,7 @@ namespace Anharu {
       if (Id != other.Id) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(X, other.X)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Y, other.Y)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Z, other.Z)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -404,6 +418,7 @@ namespace Anharu {
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (X != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(X);
       if (Y != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Y);
+      if (Z != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Z);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -429,6 +444,10 @@ namespace Anharu {
         output.WriteRawTag(25);
         output.WriteDouble(Y);
       }
+      if (Z != 0D) {
+        output.WriteRawTag(33);
+        output.WriteDouble(Z);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -444,6 +463,9 @@ namespace Anharu {
         size += 1 + 8;
       }
       if (Y != 0D) {
+        size += 1 + 8;
+      }
+      if (Z != 0D) {
         size += 1 + 8;
       }
       if (_unknownFields != null) {
@@ -466,6 +488,9 @@ namespace Anharu {
       if (other.Y != 0D) {
         Y = other.Y;
       }
+      if (other.Z != 0D) {
+        Z = other.Z;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -487,6 +512,10 @@ namespace Anharu {
           }
           case 25: {
             Y = input.ReadDouble();
+            break;
+          }
+          case 33: {
+            Z = input.ReadDouble();
             break;
           }
         }
@@ -523,6 +552,7 @@ namespace Anharu {
       id_ = other.id_;
       x_ = other.x_;
       y_ = other.y_;
+      z_ = other.z_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -564,6 +594,17 @@ namespace Anharu {
       }
     }
 
+    /// <summary>Field number for the "z" field.</summary>
+    public const int ZFieldNumber = 4;
+    private double z_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public double Z {
+      get { return z_; }
+      set {
+        z_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as SetPositionRequest);
@@ -580,6 +621,7 @@ namespace Anharu {
       if (Id != other.Id) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(X, other.X)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Y, other.Y)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Z, other.Z)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -589,6 +631,7 @@ namespace Anharu {
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (X != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(X);
       if (Y != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Y);
+      if (Z != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Z);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -614,6 +657,10 @@ namespace Anharu {
         output.WriteRawTag(25);
         output.WriteDouble(Y);
       }
+      if (Z != 0D) {
+        output.WriteRawTag(33);
+        output.WriteDouble(Z);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -629,6 +676,9 @@ namespace Anharu {
         size += 1 + 8;
       }
       if (Y != 0D) {
+        size += 1 + 8;
+      }
+      if (Z != 0D) {
         size += 1 + 8;
       }
       if (_unknownFields != null) {
@@ -651,6 +701,9 @@ namespace Anharu {
       if (other.Y != 0D) {
         Y = other.Y;
       }
+      if (other.Z != 0D) {
+        Z = other.Z;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -672,6 +725,10 @@ namespace Anharu {
           }
           case 25: {
             Y = input.ReadDouble();
+            break;
+          }
+          case 33: {
+            Z = input.ReadDouble();
             break;
           }
         }
@@ -893,6 +950,7 @@ namespace Anharu {
       id_ = other.id_;
       x_ = other.x_;
       y_ = other.y_;
+      z_ = other.z_;
       _unknownFields = pb::UnknownFieldSet.Clone(other._unknownFields);
     }
 
@@ -934,6 +992,17 @@ namespace Anharu {
       }
     }
 
+    /// <summary>Field number for the "z" field.</summary>
+    public const int ZFieldNumber = 4;
+    private double z_;
+    [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
+    public double Z {
+      get { return z_; }
+      set {
+        z_ = value;
+      }
+    }
+
     [global::System.Diagnostics.DebuggerNonUserCodeAttribute]
     public override bool Equals(object other) {
       return Equals(other as ConnectPositionRequest);
@@ -950,6 +1019,7 @@ namespace Anharu {
       if (Id != other.Id) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(X, other.X)) return false;
       if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Y, other.Y)) return false;
+      if (!pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.Equals(Z, other.Z)) return false;
       return Equals(_unknownFields, other._unknownFields);
     }
 
@@ -959,6 +1029,7 @@ namespace Anharu {
       if (Id.Length != 0) hash ^= Id.GetHashCode();
       if (X != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(X);
       if (Y != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Y);
+      if (Z != 0D) hash ^= pbc::ProtobufEqualityComparers.BitwiseDoubleEqualityComparer.GetHashCode(Z);
       if (_unknownFields != null) {
         hash ^= _unknownFields.GetHashCode();
       }
@@ -984,6 +1055,10 @@ namespace Anharu {
         output.WriteRawTag(25);
         output.WriteDouble(Y);
       }
+      if (Z != 0D) {
+        output.WriteRawTag(33);
+        output.WriteDouble(Z);
+      }
       if (_unknownFields != null) {
         _unknownFields.WriteTo(output);
       }
@@ -999,6 +1074,9 @@ namespace Anharu {
         size += 1 + 8;
       }
       if (Y != 0D) {
+        size += 1 + 8;
+      }
+      if (Z != 0D) {
         size += 1 + 8;
       }
       if (_unknownFields != null) {
@@ -1021,6 +1099,9 @@ namespace Anharu {
       if (other.Y != 0D) {
         Y = other.Y;
       }
+      if (other.Z != 0D) {
+        Z = other.Z;
+      }
       _unknownFields = pb::UnknownFieldSet.MergeFrom(_unknownFields, other._unknownFields);
     }
 
@@ -1042,6 +1123,10 @@ namespace Anharu {
           }
           case 25: {
             Y = input.ReadDouble();
+            break;
+          }
+          case 33: {
+            Z = input.ReadDouble();
             break;
           }
         }
