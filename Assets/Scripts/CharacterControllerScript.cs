@@ -82,7 +82,8 @@ public class CharacterControllerScript : MonoBehaviour
                 Vector3 tmp = player.transform.position;
                 var x = tmp.x;
                 var y = tmp.y;
-                var req = new ConnectPositionRequest { Id = id, X = x, Y = y };
+                var z = tmp.z;
+                var req = new ConnectPositionRequest { Id = id, X = x, Y = y, Z = z };
                 await call.RequestStream.WriteAsync(req);
                 Debug.Log(i);
                 i++;
@@ -99,16 +100,29 @@ public class CharacterControllerScript : MonoBehaviour
     }
     void setUsers()
     {
+        var myId = PlayerPrefs.GetString("userId");
 		foreach (UserPosition user in this.users) {
-            if (!this.userObjects.Contains(user.Id))
+            if (!this.userObjects.Contains(user.Id) & user.Id == myId)
             {
-                GameObject otherPlayer = (GameObject)Instantiate(playerPrefab, new Vector3((float)user.X, (float)user.Y, 0.0f), Quaternion.identity) as GameObject;
-                otherPlayer.name = user.Id;
-                this.userObjects.Add(user.Id, otherPlayer);
+
+            }
+            else if (!this.userObjects.Contains(user.Id))
+            {
+				GameObject otherPlayer = (GameObject)Instantiate(playerPrefab, new Vector3((float)user.X, (float)user.Y, (float)user.Z), Quaternion.identity) as GameObject;
+				otherPlayer.name = user.Id;
+				this.userObjects.Add(user.Id, otherPlayer);
             }
             else {
                 GameObject activePlayer = (GameObject)this.userObjects[user.Id];
-                activePlayer.transform.position = new Vector3((float)user.X, (float)user.Y, 0.0f);
+                Vector3 tmp = activePlayer.transform.position;
+                activePlayer.transform.position = new Vector3((float)user.X, (float)user.Y,(float)user.Z);
+                var aniPreCon = activePlayer.GetComponent<Animator>();
+                if ((float)user.X - tmp.x == 0.0f & (float)user.Y - tmp.y == 0.0f & (float)user.Z - tmp.z == 0.0f){
+                    aniPreCon.SetBool("Run", false);
+                }
+                else { 
+                    aniPreCon.SetBool("Run", true);
+                }
             }
 		}
 	}
