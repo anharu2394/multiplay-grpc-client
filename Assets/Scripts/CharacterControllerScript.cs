@@ -28,6 +28,7 @@ public class CharacterControllerScript : MonoBehaviour
 
 	void Start()
 	{
+        
 		// コンポーネントの取得
 		this.userObjects = new Hashtable();
 		controller = GetComponent<CharacterController>();
