@@ -9,18 +9,23 @@ using System.Threading;
 using System.Threading.Tasks;
 using Anharu;
 
-public class ClientController : MonoBehaviour {
+public class ClientController : MonoBehaviour
+{
     public Text userNameText;
     private Channel channel;
-    void Start() {
+    void Start()
+    {
         channel = new Channel("127.0.0.1:57601", ChannelCredentials.Insecure);
     }
-    void Update() {
-		if (Input.GetKey(KeyCode.A)) {
+    void Update()
+    {
+        if (Input.GetKey(KeyCode.A))
+        {
             Debug.Log("A");
         }
-	}
-    public void SendUser() {
+    }
+    public void SendUser()
+    {
         var client = new User.UserClient(channel);
         Debug.Log(userNameText.text);
         var name = userNameText.text;
@@ -28,6 +33,6 @@ public class ClientController : MonoBehaviour {
         Debug.Log("Your ID is" + reply.Id);
         PlayerPrefs.SetString("userId", reply.Id);
         channel.ShutdownAsync().Wait();
-		SceneManager.LoadScene("Main");
+        SceneManager.LoadScene("Main");
     }
 }
