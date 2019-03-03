@@ -1,4 +1,5 @@
-﻿using System.Collections;
+﻿using System;
+using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 using Grpc.Core;
@@ -23,20 +24,21 @@ public class CharacterControllerScript : MonoBehaviour
 	public float jumpSpeed = 8.0F;
 	public float gravity = 20.0F;
 	private Vector3 moveDirection = Vector3.zero;
+    private CancellationTokenSource cts = new CancellationTokenSource();
 
 	void Start()
 	{
-
 		// コンポーネントの取得
 		this.userObjects = new Hashtable();
 		controller = GetComponent<CharacterController>();
         animCon = GetComponent<Animator>();
 		channel = new Channel("127.0.0.1:57601", ChannelCredentials.Insecure);
-        sendPositon();
+        sendPositon(this.cts.Token);
 	}
 
 	void Update()
 	{
+        if (Input.GetKey(KeyCode.Q)) this.cts.Cancel();
 		animCon.SetBool("Run", true);
 		if (controller.isGrounded)
 		{
@@ -56,19 +58,19 @@ public class CharacterControllerScript : MonoBehaviour
 		controller.Move(moveDirection * Time.deltaTime);
         setUsers();
 	}
-    private async Task sendPositon()
+    private async Task sendPositon(CancellationToken token)
     {
         var client = new Multiplay.MultiplayClient(channel);
         try
         {
             var call = client.ConnectPosition();
+			CancellationTokenSource cts = new CancellationTokenSource();
+			CancellationToken move_next_token = cts.Token;
             var responseReaderTask = Task.Run(async () =>
             {
-                CancellationTokenSource cts = new CancellationTokenSource();
-                CancellationToken token = cts.Token;
                 while (true)
                 {
-					await call.ResponseStream.MoveNext(token);
+					await call.ResponseStream.MoveNext(move_next_token);
 					var position = call.ResponseStream.Current;
 					Debug.Log("Received " + position);
                     this.users = position.Users;
@@ -85,6 +87,7 @@ public class CharacterControllerScript : MonoBehaviour
                 var z = tmp.z;
                 var req = new ConnectPositionRequest { Id = id, X = x, Y = y, Z = z };
                 await call.RequestStream.WriteAsync(req);
+                if (token.IsCancellationRequested) break;
                 Debug.Log(i);
                 i++;
             }
@@ -97,6 +100,7 @@ public class CharacterControllerScript : MonoBehaviour
 			throw;
         }
         channel.ShutdownAsync().Wait();
+        Debug.Log("finish!!");
     }
     void setUsers()
     {
