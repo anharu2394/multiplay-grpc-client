@@ -16,7 +16,9 @@ public class CharacterControllerScript : MonoBehaviour
     public float speed = 3.0F;
     public float rotateSpeed = 3.0F;
     private Channel channel;
-    private Google.Protobuf.Collections.RepeatedField<UserPosition> users;
+    private Multiplay.MultiplayClient client;
+    private AsyncDuplexStreamingCall<ConnectPositionRequest, ConnectPositionResponse> call;
+    private Google.Protobuf.Collections.RepeatedField<UserPosition> users = new Google.Protobuf.Collections.RepeatedField<UserPosition>();
     private Hashtable userObjects;
 
     private CharacterController controller;
@@ -24,7 +26,8 @@ public class CharacterControllerScript : MonoBehaviour
     public float jumpSpeed = 8.0F;
     public float gravity = 20.0F;
     private Vector3 moveDirection = Vector3.zero;
-    private CancellationTokenSource cts = new CancellationTokenSource();
+
+    private string id;
 
     void Start()
     {
@@ -34,12 +37,13 @@ public class CharacterControllerScript : MonoBehaviour
         controller = GetComponent<CharacterController>();
         animCon = GetComponent<Animator>();
         channel = new Channel("127.0.0.1:57601", ChannelCredentials.Insecure);
-        sendPositon(this.cts.Token);
+        client = new Multiplay.MultiplayClient(channel);
+        call = client.ConnectPosition();
+        id = PlayerPrefs.GetString("userId");
     }
 
     void Update()
     {
-        if (Input.GetKey(KeyCode.Q)) this.cts.Cancel();
         animCon.SetBool("Run", true);
         if (controller.isGrounded)
         {
@@ -58,53 +62,33 @@ public class CharacterControllerScript : MonoBehaviour
         }
         moveDirection.y -= gravity * Time.deltaTime;
         controller.Move(moveDirection * Time.deltaTime);
-        setUsers();
+        SetUsersPosition();
+        SetUsersOnGround();
+        SendPosition();
+        if (Input.GetKey(KeyCode.Q))
+        {
+            QuitConnection();
+        }
     }
-    private async Task sendPositon(CancellationToken token)
+    private async Task SendPosition()
     {
-        var client = new Multiplay.MultiplayClient(channel);
-        try
-        {
-            var call = client.ConnectPosition();
-            CancellationTokenSource cts = new CancellationTokenSource();
-            CancellationToken move_next_token = cts.Token;
-            var responseReaderTask = Task.Run(async () =>
-            {
-                while (true)
-                {
-                    await call.ResponseStream.MoveNext(move_next_token);
-                    var position = call.ResponseStream.Current;
-                    Debug.Log("Received " + position);
-                    this.users = position.Users;
-                }
-            });
-            var num = 5;
-            var i = 0;
-            var id = PlayerPrefs.GetString("userId");
-            while (true)
-            {
-                Vector3 tmp = player.transform.position;
-                var x = tmp.x;
-                var y = tmp.y;
-                var z = tmp.z;
-                var req = new ConnectPositionRequest { Id = id, X = x, Y = y, Z = z };
-                await call.RequestStream.WriteAsync(req);
-                if (token.IsCancellationRequested) break;
-                Debug.Log(i);
-                i++;
-            }
-            await responseReaderTask;
-            await call.RequestStream.CompleteAsync();
-        }
-        catch
-        {
-            Debug.Log("failed");
-            throw;
-        }
-        channel.ShutdownAsync().Wait();
-        Debug.Log("finish!!");
+        Vector3 tmp = player.transform.position;
+        var x = tmp.x;
+        var y = tmp.y;
+        var z = tmp.z;
+        var req = new ConnectPositionRequest { Id = id, X = x, Y = y, Z = z };
+        await call.RequestStream.WriteAsync(req);
     }
-    void setUsers()
+    private async Task SetUsersPosition()
+    {
+        if (await call.ResponseStream.MoveNext())
+        {
+            var position = call.ResponseStream.Current;
+            Debug.Log("Received " + position);
+            this.users = position.Users;
+        }
+    }
+    private void SetUsersOnGround()
     {
         var myId = PlayerPrefs.GetString("userId");
         foreach (UserPosition user in this.users)
@@ -135,5 +119,11 @@ public class CharacterControllerScript : MonoBehaviour
                 }
             }
         }
+    }
+    private async Task QuitConnection()
+    {
+        await call.RequestStream.CompleteAsync();
+        await SetUsersPosition();
+        channel.ShutdownAsync().Wait();
     }
 }
